@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctrs>
+    <contracts>
+        <contract symbol="SPY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="-" companyName="SPDR SP 500 ETF TRUST"/>
+        <contract symbol="MDY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="-" companyName=""/>
+        
+        <!-- A -->
+        <contract symbol="ABT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Abbott Laboratories"/>       
+        <contract symbol="ABBV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AbbVie"/>
+        <contract symbol="ACN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Accenture plc"/>
+        <contract symbol="ACE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="ACE Limited"/>
+        <contract symbol="ACT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Actavis plc"/>
+        <contract symbol="ADBE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Adobe Systems Inc"/>
+        <contract symbol="ADT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="ADT Corp"/>
+        <contract symbol="AES" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AES Corp"/>
+        <contract symbol="AET" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Aetna Inc"/>
+        <contract symbol="AFL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AFLAC Inc"/>
+        <contract symbol="AMG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Affiliated Managers Group Inc"/>
+        <contract symbol="A" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Agilent Technologies Inc"/>
+        <contract symbol="APD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Air Products and Chemicals Inc"/>
+        <contract symbol="ARG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Airgas Inc"/>
+        <contract symbol="AKAM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Akamai Technologies Inc"/>
+        <contract symbol="AA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Alcoa Inc"/>
+        <contract symbol="ALXN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Alexion Pharmaceuticals"/>
+        <contract symbol="ATI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Allegheny Technologies Inc"/>
+        <contract symbol="ALLE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Allegion"/>
+        <contract symbol="ADS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Alliance Data Systems"/>
+        <contract symbol="ALL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Allstate Corp"/>
+        <contract symbol="ALTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Altera Corp"/>
+        <contract symbol="AMZN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Amazon.com Inc"/>
+        <contract symbol="AEE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ameren Corp"/>
+        <contract symbol="AAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="American Airlines Group"/>
+        <contract symbol="AEP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="American Electric Power"/>
+        <contract symbol="AXP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="American Express Co"/>
+        <contract symbol="AIG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="American International Group, Inc."/>
+        <contract symbol="AMT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="American Tower Corp A"/>
+        <contract symbol="AMP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ameriprise Financial"/>
+        <contract symbol="ABC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AmerisourceBergen Corp"/>
+        <contract symbol="AME" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ametek"/>
+        <contract symbol="AMGN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Amgen Inc"/>
+        <contract symbol="APH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Amphenol Corp A"/>
+        <contract symbol="APC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Anadarko Petroleum Corp"/>
+        <contract symbol="ADI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Analog Devices, Inc."/>
+        <contract symbol="AON" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Aon plc"/>
+        <contract symbol="APA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Apache Corporation"/>
+        <contract symbol="AIV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Apartment Investment and Mgmt"/>
+        <contract symbol="AAPL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Apple"/>
+        <contract symbol="AMAT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Applied Materials Inc"/>
+        <contract symbol="ADM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Archer-Daniels-Midland Co"/>
+        <contract symbol="AIZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Assurant Inc"/>
+        <contract symbol="ADSK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Autodesk Inc"/>
+        <contract symbol="ADP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Automatic Data Processing"/>
+        <contract symbol="AN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AutoNation Inc"/>
+        <contract symbol="AZO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AutoZone Inc"/>
+        <contract symbol="AVGO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Avago Technologies"/>
+        <contract symbol="AVB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AvalonBay Communities, Inc."/>
+        <contract symbol="AVY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Avery Dennison Corp"/>
+        <contract symbol="ANTM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Anthem Inc."/>
+
+        <contract symbol="AAN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Aaron's Inc"/>
+        <contract symbol="AAP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Advance Auto Parts Inc"/>
+        <contract symbol="ACC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="American Campus Communities"/>
+        <contract symbol="ACIW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ACI Worldwide Inc"/>
+        <contract symbol="ACXM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Acxiom"/>
+        <contract symbol="ADVS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Advent Software Inc"/>
+        <contract symbol="AEO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="American Eagle Outfitters"/>
+        <contract symbol="AFG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="American Financial Group Inc"/>
+        <contract symbol="AGCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="AGCO Corp"/>
+        <contract symbol="AHL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Aspen Insurance Holdings Ltd"/>
+        <contract symbol="AJG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Arthur J Gallagher and Co"/>
+        <contract symbol="AKRX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Akorn, Inc"/>
+        <contract symbol="ALB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Albemarle Corp"/>
+        <contract symbol="ALEX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Alexander and Baldwin Inc"/>
+        <contract symbol="ALGN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Align Technology"/>
+        <contract symbol="ALK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Alaska Air Group Inc"/>
+        <contract symbol="AMCX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="AMC Networks"/>
+        <contract symbol="AMD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Advanced Micro Devices"/>
+        <contract symbol="ANF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Abercrombie and Fitch Co."/>
+        <contract symbol="ANN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ann Inc"/>
+        <contract symbol="ANSS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ANSYS Inc"/>
+        <contract symbol="AOL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="AOL Inc"/>
+        <contract symbol="AOS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="A.O. Smith Corp"/>
+        <contract symbol="APOL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Apollo Group"/>
+        <contract symbol="ARE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Alexandria Real Estate Equit"/>
+        <contract symbol="ARRS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ARRIS Group Inc"/>
+        <contract symbol="ARW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Arrow Electronics Inc"/>
+        <contract symbol="ASB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Associated Banc-Corp"/>
+        <contract symbol="ASH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ashland Inc"/>
+        <contract symbol="ASNA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ascena Retail Group Inc"/>
+        <contract symbol="ATML" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Atmel Corp"/>
+        <contract symbol="ATO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Atmos Energy Corp"/>
+        <contract symbol="ATR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="AptarGroup Inc"/>
+        <contract symbol="ATW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Atwood Oceanics Inc"/>
+        <contract symbol="AVP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Avon Products Inc"/>
+        <contract symbol="AVT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Avnet Inc"/>
+        <contract symbol="AYI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Acuity Brands Inc"/>
+
+        <!-- B -->
+        <contract symbol="BEN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Franklin Resources"/>
+        <contract symbol="BHI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Baker Hughes Inc"/>
+        <contract symbol="BLL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ball Corp"/>
+        <contract symbol="BAC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Bank of America Corp"/>
+        <contract symbol="BK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Bank of New York Mellon Corp."/>
+        <contract symbol="BCR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Bard (C.R.) Inc."/>
+        <contract symbol="BAX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Baxter International Inc."/>
+        <contract symbol="BBT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="BB_T Corporation"/>
+        <contract symbol="BDX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Becton Dickinson"/>
+        <contract symbol="BBBY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Bed Bath and Beyond"/>
+        <contract symbol="BRK B" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Berkshire Hathaway"/>
+        <contract symbol="BBY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Best Buy Co. Inc."/>
+        <contract symbol="BIIB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="BIOGEN IDEC Inc."/>
+        <contract symbol="BLK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="BlackRock"/>
+        <contract symbol="HRB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Block H_R"/>
+        <contract symbol="BA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Boeing Company"/>
+        <contract symbol="BWA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="BorgWarner"/>
+        <contract symbol="BXP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Boston Properties"/>
+        <contract symbol="BSX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Boston Scientific"/>
+        <contract symbol="BMY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Bristol-Myers Squibb"/>
+        <contract symbol="BRCM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Broadcom Corporation"/>
+        <contract symbol="BF B" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Brown-Forman Corporation"/>
+
+        <contract symbol="BBG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Bill Barrett Corp"/>
+        <contract symbol="BC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Brunswick Corp"/>
+        <contract symbol="BDC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Belden Corp"/>
+        <contract symbol="BEAV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="B/E Aerospace Inc"/>
+        <contract symbol="BID" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Sotheby's"/>
+        <contract symbol="BIG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Big Lots Inc"/>
+        <contract symbol="BIO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Bio-Rad Laboratories-A"/>
+        <contract symbol="BKH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Black Hills Corp"/>
+        <contract symbol="BMR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="BioMed Realty Trust Inc"/>
+        <contract symbol="BMS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Bemis Company Inc"/>
+        <contract symbol="BOH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Bank of Hawaii Corp"/>
+        <contract symbol="BR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Broadridge Financial Solutions"/>
+        <contract symbol="BRO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Brown and Brown Inc"/>
+        <contract symbol="BTU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Peabody Energy Corp"/>
+        <contract symbol="BWLD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Buffalo Wild Wings Inc"/>
+        <contract symbol="BXS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="BancorpSouth Inc"/>
+
+        <!-- C -->
+        <contract symbol="CHRW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="C. H. Robinson Worldwide"/>
+        <contract symbol="CA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CA, Inc."/>
+        <contract symbol="CVC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cablevision Systems Corp."/>
+        <contract symbol="COG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cabot Oil _ Gas"/>
+        <contract symbol="CAM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cameron International Corp."/>
+        <contract symbol="CPB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Campbell Soup"/>
+        <contract symbol="COF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Capital One Financial"/>
+        <contract symbol="CAH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cardinal Health Inc."/>
+        <contract symbol="CCL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Carnival Corp."/>
+        <contract symbol="CAT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Caterpillar Inc."/>
+        <contract symbol="CBG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CBRE Group"/>
+        <contract symbol="CBS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CBS Corp."/>
+        <contract symbol="CELG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Celgene Corp."/>
+        <contract symbol="CNP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CenterPoint Energy"/>
+        <contract symbol="CTL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CenturyLink Inc"/>
+        <contract symbol="CERN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cerner"/>
+        <contract symbol="CF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CF Industries Holdings Inc"/>
+        <contract symbol="CHK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Chesapeake Energy"/>
+        <contract symbol="CVX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Chevron Corp."/>
+        <contract symbol="CMG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Chipotle Mexican Grill"/>
+        <contract symbol="CB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Chubb Corp."/>
+        <contract symbol="CI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CIGNA Corp."/>
+        <contract symbol="CINF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cincinnati Financial"/>
+        <contract symbol="CTAS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cintas Corporation"/>
+        <contract symbol="CSCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cisco Systems"/>
+        <contract symbol="C" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Citigroup Inc."/>
+        <contract symbol="CTXS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Citrix Systems"/>
+        <contract symbol="CLX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Clorox Company"/>
+        <contract symbol="CME" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CME Group Inc."/>
+        <contract symbol="CMS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CMS Energy"/>
+        <contract symbol="COH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Coach Inc."/>
+        <contract symbol="CCE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Coca-Cola Enterprises"/>
+        <contract symbol="CTSH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cognizant Technology Solutions"/>
+        <contract symbol="CL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Colgate-Palmolive"/>
+        <contract symbol="CMCSA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Comcast Corp."/>
+        <contract symbol="CMA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Comerica Inc."/>
+        <contract symbol="CSC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Computer Sciences Corp."/>
+        <contract symbol="CAG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="ConAgra Foods Inc."/>
+        <contract symbol="COP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="ConocoPhillips"/>
+        <contract symbol="CNX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CONSOL Energy Inc."/>
+        <contract symbol="COST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Costco Co."/>
+        <contract symbol="CCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Crown Castle International Corp."/>
+        <contract symbol="CSX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CSX Corp."/>
+        <contract symbol="CMI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cummins Inc."/>
+        <contract symbol="CVS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="CVS Caremark Corp."/>
+        <contract symbol="COL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Rockwell Collins"/>
+        <contract symbol="CRM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Salesforce.com"/>
+
+        <contract symbol="CAB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cabela's Inc"/>
+        <contract symbol="CAKE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="The Cheesecake Factory Inc"/>
+        <contract symbol="CATY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cathay General Bancorp"/>
+        <contract symbol="CBOE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CBOE Holdings Inc"/>
+        <contract symbol="CBSH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Commerce Bancshares Inc"/>
+        <contract symbol="CBT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cabot Corp"/>
+        <contract symbol="CDK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CDK Global Inc"/>
+        <contract symbol="CDNS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cadence Design Sys Inc"/>
+        <contract symbol="CEB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Corporate Executive Board Co"/>
+        <contract symbol="CFR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cullen/Frost Bankers Inc"/>
+        <contract symbol="CGNX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cognex Corp"/>
+        <contract symbol="CHD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Church and Dwight Co"/>
+        <contract symbol="CHS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Chico's Fas Inc"/>
+        <contract symbol="CIEN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ciena Corp"/>
+        <contract symbol="CLC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Clarcor Inc."/>
+        <contract symbol="CLGX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CoreLogic Inc"/>
+        <contract symbol="CLH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Clean Harbors Inc"/>
+        <contract symbol="CLI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mack-Cali Realty Corp"/>
+        <contract symbol="CMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Commercial Metals Company"/>
+        <contract symbol="CMP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Compass Minerals International Inc."/>
+        <contract symbol="CNC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Centene Corp"/>
+        <contract symbol="CNK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cinemark Holdings Inc"/>
+        <contract symbol="CNL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CLECO Corporation"/>
+        <contract symbol="CNO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CNO Financial Group Inc"/>
+        <contract symbol="CNW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Con-way Inc"/>
+        <contract symbol="COO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cooper Companies Inc"/>
+        <contract symbol="CPRT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Copart, Inc."/>
+        <contract symbol="CPT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Camden Property Trust"/>
+        <contract symbol="CR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Crane Co."/>
+        <contract symbol="CRC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="California Resources Corp"/>
+        <contract symbol="CREE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cree Inc"/>
+        <contract symbol="CRI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Carters Inc"/>
+        <contract symbol="CRL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Charles River Laboratories"/>
+        <contract symbol="CRS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Carpenter Technology"/>
+        <contract symbol="CSAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Communications Sales and Leasing Inc"/>
+        <contract symbol="CSL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Carlisle Companies Inc."/>
+        <contract symbol="CST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CST Brands Inc"/>
+        <contract symbol="CVG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Convergys Corp"/>
+        <contract symbol="CVLT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="CommVault Systems"/>
+        <contract symbol="CXW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Corrections Corp of America"/>
+        <contract symbol="CY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cypress Semiconductor Corp"/>
+        <contract symbol="CYH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Community Health Systems"/>
+        <contract symbol="CYN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="City National Corp"/>
+        <contract symbol="CYT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Cytec Industries Inc"/>
+
+        <!-- D -->
+        <contract symbol="DHI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="D. R. Horton"/>
+        <contract symbol="DHR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Danaher Corp."/>
+        <contract symbol="DRI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Darden Restaurants"/>
+        <contract symbol="DVA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="DaVita Inc."/>
+        <contract symbol="DE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Deere and Co."/>
+        <contract symbol="DLPH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Delphi Automotive"/>
+        <contract symbol="DAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Delta Air Lines"/>
+        <contract symbol="DVN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Devon Energy Corp."/>
+        <contract symbol="DO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Diamond Offshore Drilling"/>
+        <contract symbol="DTV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="DirecTV"/>
+        <contract symbol="DFS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Discover Financial Services"/>
+        <contract symbol="DISCA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Discovery Communications-A"/>
+        <contract symbol="DISCK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Discovery Communications-C"/>
+        <contract symbol="DG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dollar General"/>
+        <contract symbol="DLTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dollar Tree"/>
+        <contract symbol="D" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dominion Resources"/>
+        <contract symbol="DOV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dover Corp."/>
+        <contract symbol="DOW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dow Chemical"/>
+        <contract symbol="DPS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dr Pepper Snapple Group"/>
+        <contract symbol="DTE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="DTE Energy Co."/>
+        <contract symbol="DD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Du Pont (E.I.)"/>
+        <contract symbol="DUK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Duke Energy"/>
+        <contract symbol="DNB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dun and Bradstreet"/>
+        <contract symbol="DGX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Quest Diagnostics"/>
+        <contract symbol="DIS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Walt Disney Company"/>
+
+        <contract symbol="DAN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dana Holding Corp"/>
+        <contract symbol="DBD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Diebold Inc"/>
+        <contract symbol="DCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Donaldson Co"/>
+        <contract symbol="DDD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="3D Systems Corp"/>
+        <contract symbol="DECK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Deckers Outdoor Corporation"/>
+        <contract symbol="DEI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Douglass Emmett Inc"/>
+        <contract symbol="DF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dean Foods Co"/>
+        <contract symbol="DKS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dick's Sporting Goods Inc"/>
+        <contract symbol="DLX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Deluxe Corporation"/>
+        <contract symbol="DNKN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dunkin' Brands Group Inc"/>
+        <contract symbol="DNOW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="NOW Inc"/>
+        <contract symbol="DNR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Denbury Resources Inc"/>
+        <contract symbol="DPZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Domino's Pizza Inc"/>
+        <contract symbol="DRC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dresser-Rand Group"/>
+        <contract symbol="DRE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Duke Realty Corp"/>
+        <contract symbol="DRQ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Dril-Quip"/>
+        <contract symbol="DST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="DST Systems Inc"/>
+        <contract symbol="DV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="DeVry Inc"/>
+        <contract symbol="DWA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="DreamWorks Animation SKG"/>
+
+        <!-- E -->
+        <contract symbol="ED" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Consolidated Edison"/>
+        <contract symbol="ETFC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="E*Trade"/>
+        <contract symbol="EMN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Eastman Chemical"/>
+        <contract symbol="ETN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Eaton Corporation"/>
+        <contract symbol="EBAY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="eBay Inc."/>
+        <contract symbol="ECL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ecolab Inc."/>
+        <contract symbol="EIX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Edison Int'l"/>
+        <contract symbol="EW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Edwards Lifesciences"/>
+        <contract symbol="EA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Electronic Arts"/>
+        <contract symbol="EMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="EMC Corp."/>
+        <contract symbol="EMR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Emerson Electric Company"/>
+        <contract symbol="ENDP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Endo International"/>
+        <contract symbol="ESV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ensco plc"/>
+        <contract symbol="ETR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Entergy Corp."/>
+        <contract symbol="EOG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="EOG Resources"/>
+        <contract symbol="EQT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="EQT Corporation"/>
+        <contract symbol="EFX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Equifax Inc."/>
+        <contract symbol="EQIX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Equinix"/>
+        <contract symbol="EQR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Equity Residential"/>
+        <contract symbol="ESS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Essex Property Trust Inc"/>
+        <contract symbol="EL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Estee Lauder Cos."/>
+        <contract symbol="ES" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Eversource Energy"/>
+        <contract symbol="EXC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Exelon Corp."/>
+        <contract symbol="EXPE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Expedia Inc."/>
+        <contract symbol="EXPD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Expeditors Int'l"/>
+        <contract symbol="ESRX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Express Scripts"/>
+
+        <contract symbol="EAT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Brinker International Inc"/>
+        <contract symbol="EGN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Energen Corp"/>
+        <contract symbol="ENR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Energizer Hldgs Inc"/>
+        <contract symbol="EQY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Equity One Inc"/>
+        <contract symbol="ESL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Esterline Technologies"/>
+        <contract symbol="EV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Eaton Vance Corp"/>
+        <contract symbol="EWBC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="East West Bancorp Inc"/>
+        <contract symbol="EXP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Eagle Materials Inc"/>
+        <contract symbol="EXR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Extra Space Storage Inc"/>
+
+        <!-- F -->
+        <contract symbol="FFIV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="F5 Networks"/>
+        <contract symbol="FB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Facebook"/>
+        <contract symbol="FDO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Family Dollar Stores"/>
+        <contract symbol="FAST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fastenal Co"/>
+        <contract symbol="FDX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="FedEx Corporation"/>
+        <contract symbol="FIS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fidelity National Information Services"/>
+        <contract symbol="FITB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fifth Third Bancorp"/>
+        <contract symbol="FSLR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="First Solar Inc"/>
+        <contract symbol="FE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="FirstEnergy Corp"/>
+        <contract symbol="FISV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fiserv Inc"/>
+        <contract symbol="FLIR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="FLIR Systems"/>
+        <contract symbol="FLS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Flowserve Corporation"/>
+        <contract symbol="FLR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fluor Corp."/>
+        <contract symbol="FMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="FMC Corporation"/>
+        <contract symbol="FTI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="FMC Technologies Inc."/>
+        <contract symbol="F" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ford Motor"/>
+        <contract symbol="FOSL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Fossil, Inc."/>
+        <contract symbol="FCX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Freeport-McMoran Cp and Gld"/>
+        <contract symbol="FTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Frontier Communications"/>
+        <contract symbol="FOXA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Twenty-First Century Fox"/>
+
+        <contract symbol="FAF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="First American Financial Corp"/>
+        <contract symbol="FBHS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Fortune Brands"/>
+        <contract symbol="FCN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="FTI Consulting, Inc"/>
+        <contract symbol="FCS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Fairchild Semiconductor Intl A"/>
+        <contract symbol="FDS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="FactSet Research System Inc"/>
+        <contract symbol="FEIC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="FEI Co"/>
+        <contract symbol="FHN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="First Horizon National Corp"/>
+        <contract symbol="FICO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Fair Isaac and Co Inc"/>
+        <contract symbol="FII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Federated Investors Inc B"/>
+        <contract symbol="FL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Foot Locker Inc"/>
+        <contract symbol="FLO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Flowers Foods Inc"/>
+        <contract symbol="FMER" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="FirstMerit Corp"/>
+        <contract symbol="FNFG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="First Niagara Finl Group"/>
+        <contract symbol="FRT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Federal Realty Invt Trust"/>
+        <contract symbol="FTNT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Fortinet Inc"/>
+        <contract symbol="FULT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Fulton Financial Corp (PA)"/>
+
+        <!-- G -->
+        <contract symbol="GAS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AGL Resources Inc"/>
+        <contract symbol="GLW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Corning Inc."/>
+        <contract symbol="GME" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="GameStop Corp."/>
+        <contract symbol="GCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Gannett Co."/>
+        <contract symbol="GPS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Gap (The)"/>
+        <contract symbol="GRMN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Garmin Ltd."/>
+        <contract symbol="GD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="General Dynamics"/>
+        <contract symbol="GE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="General Electric"/>
+        <contract symbol="GGP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="General Growth Properties Inc."/>
+        <contract symbol="GIS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="General Mills"/>
+        <contract symbol="GM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="General Motors"/>
+        <contract symbol="GPC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Genuine Parts"/>
+        <contract symbol="GNW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Genworth Financial Inc."/>
+        <contract symbol="GILD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Gilead Sciences"/>
+        <contract symbol="GS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Goldman Sachs Group"/>
+        <contract symbol="GT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Goodyear Tire and Rubber"/>
+        <contract symbol="GOOGL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Google Inc Class A"/>
+        <contract symbol="GOOG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Google Inc Class C"/>
+        <contract symbol="GWW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Grainger (W.W.) Inc."/>
+        <contract symbol="GMCR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Keurig Green Mountain"/>
+
+        <contract symbol="GEF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Greif Bros Corp"/>
+        <contract symbol="GES" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Guess? Inc"/>
+        <contract symbol="GGG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Graco Inc"/>
+        <contract symbol="GHC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Graham Holdings Co"/>
+        <contract symbol="GPOR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Gulfport Energy Corp"/>
+        <contract symbol="GVA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Granite Construction Inc"/>
+        <contract symbol="GWR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Genesee and Wyoming"/>
+        <contract symbol="GXP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Great Plains Energy Inc"/>
+
+        <!-- H -->
+        <contract symbol="HAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Halliburton Co."/>
+        <contract symbol="HBI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hanesbrands Inc"/>
+        <contract symbol="HOG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Harley-Davidson"/>
+        <contract symbol="HAR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Harman Int'l Industries"/>
+        <contract symbol="HRS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Harris Corporation"/>
+        <contract symbol="HIG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hartford Financial Svc.Gp."/>
+        <contract symbol="HAS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hasbro Inc."/>
+        <contract symbol="HCA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="HCA Holdings"/>
+        <contract symbol="HCP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="HCP Inc."/>
+        <contract symbol="HCN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Health Care REIT, Inc."/>
+        <contract symbol="HP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Helmerich and Payne"/>
+        <contract symbol="HES" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hess Corporation"/>
+        <contract symbol="HPQ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hewlett-Packard"/>
+        <contract symbol="HD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Home Depot"/>
+        <contract symbol="HON" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Honeywell Int'l Inc."/>
+        <contract symbol="HRL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hormel Foods Corp."/>
+        <contract symbol="HSP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hospira Inc."/>
+        <contract symbol="HST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Host Hotels and Resorts"/>
+        <contract symbol="HCBK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Hudson City Bancorp"/>
+        <contract symbol="HUM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Humana Inc."/>
+        <contract symbol="HBAN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Huntington Bancshares"/>
+        <contract symbol="HSIC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Henry Schein"/>
+        <contract symbol="HOT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Starwood Hotels and Resorts"/>
+        <contract symbol="HSY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Hershey Company"/>
+
+        <contract symbol="HAIN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hain Celestial Group Inc"/>
+        <contract symbol="HBHC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hancock Hldgs Co"/>
+        <contract symbol="HCC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="HCC Insurance Holdings Inc"/>
+        <contract symbol="HE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hawaiian Electric Industries"/>
+        <contract symbol="HFC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="HollyFrontier Corporation"/>
+        <contract symbol="HII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Huntington Ingalls Industries Inc"/>
+        <contract symbol="HIW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Highwoods Properties"/>
+        <contract symbol="HLX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Helix Energy Solutions Group Inc"/>
+        <contract symbol="HME" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Home Properties of New York"/>
+        <contract symbol="HMSY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="HMS Holdings"/>
+        <contract symbol="HNI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="HNI Corp"/>
+        <contract symbol="HNT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Health Net Inc"/>
+        <contract symbol="HOLX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hologic Inc"/>
+        <contract symbol="HPT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hospitality Properties Trust"/>
+        <contract symbol="HRC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hill-Rom Holdings Inc"/>
+        <contract symbol="HSC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Harsco Corp"/>
+        <contract symbol="HSNI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="HSN Inc"/>
+        <contract symbol="HUB B" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hubbell Inc B"/>
+        <contract symbol="HYH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Halyard Health Care"/>
+
+        <!-- I -->
+        <contract symbol="ITW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Illinois Tool Works"/>
+        <contract symbol="IR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ingersoll-Rand PLC"/>
+        <contract symbol="INTC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Intel Corp."/>
+        <contract symbol="ICE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Intercontinental Exchange"/>
+        <contract symbol="IBM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="International Bus. Machines"/>
+        <contract symbol="IP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="International Paper"/>
+        <contract symbol="IPG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Interpublic Group"/>
+        <contract symbol="IFF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Intl Flavors and Fragrances"/>
+        <contract symbol="INTU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Intuit Inc."/>
+        <contract symbol="ISRG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Intuitive Surgical Inc."/>
+        <contract symbol="IVZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Invesco Ltd."/>
+        <contract symbol="IRM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Iron Mountain Incorporated"/>
+
+        <contract symbol="IBOC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Intl Bancshares Corp"/>
+        <contract symbol="IDA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Idacorp Inc"/>
+        <contract symbol="IDCC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="InterDigital Inc"/>
+        <contract symbol="IDTI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Integrated Device Technology"/>
+        <contract symbol="IDXX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="IDEXX Laboratories Inc"/>
+        <contract symbol="IEX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="IDEX Corp"/>
+        <contract symbol="IM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ingram Micro Inc A"/>
+        <contract symbol="INFA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Informatica Corp"/>
+        <contract symbol="INGR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ingredion Inc"/>
+        <contract symbol="INT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="World Fuel Services Corp"/>
+        <contract symbol="IPGP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="IPG Photonics Corp"/>
+        <contract symbol="ISCA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Intl Speedway Corp A"/>
+        <contract symbol="ISIL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Intersil Corp A"/>
+        <contract symbol="IT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Gartner Inc"/>
+        <contract symbol="ITRI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Itron Inc"/>
+        <contract symbol="ITT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ITT Corp"/>
+
+        <!-- J -->
+        <contract symbol="JEC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Jacobs Engineering Group"/>
+        <contract symbol="JNJ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Johnson and Johnson"/>
+        <contract symbol="JCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Johnson Controls"/>
+        <contract symbol="JOY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Joy Global Inc."/>
+        <contract symbol="JPM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="JPMorgan Chase and Co."/>
+        <contract symbol="JNPR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Juniper Networks"/>
+        <contract symbol="JWN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Nordstrom"/>
+
+        <contract symbol="JAH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Jarden Corp"/>
+        <contract symbol="JBHT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="J.B. Hunt Transport Services, Inc"/>
+        <contract symbol="JBL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Jabil Circuit Inc"/>
+        <contract symbol="JBLU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="JetBlue Airways Corp"/>
+        <contract symbol="JCP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="J C Penney Company Inc"/>
+        <contract symbol="JDSU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="JDS Uniphase Corp"/>
+        <contract symbol="JKHY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Jack Henry and Associates Inc"/>
+        <contract symbol="JLL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Jones Lang Lasalle Inc"/>
+        <contract symbol="JNS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Janus Capital Group Inc"/>
+        <contract symbol="JW A" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="John Wiley and Sons Inc. 'A'"/>
+
+        <!-- K -->
+        <contract symbol="KSU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kansas City Southern"/>
+        <contract symbol="K" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kellogg Co."/>
+        <contract symbol="KEY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="KeyCorp"/>
+        <contract symbol="KMB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kimberly-Clark"/>
+        <contract symbol="KIM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kimco Realty"/>
+        <contract symbol="KMI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kinder Morgan"/> 
+        <contract symbol="KLAC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="KLA-Tencor Corp."/>
+        <contract symbol="KSS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kohl's Corp."/>
+        <contract symbol="KRFT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kraft Foods Group"/>
+        <contract symbol="KR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Kroger Co."/>
+        <contract symbol="KMX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Carmax Inc"/>
+        <contract symbol="KO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Coca Cola Company"/>
+        <contract symbol="KORS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Michael Kors Holdings"/>
+
+        <contract symbol="KATE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Kate Spade and Co"/>
+        <contract symbol="KBH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="KB Home"/>
+        <contract symbol="KBR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="KBR Inc"/>
+        <contract symbol="KEX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Kirby Corp"/>
+        <contract symbol="KEYS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Keysight Technologies Inc"/>
+        <contract symbol="KLXI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="KLX Inc"/>
+        <contract symbol="KMPR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Kemper Corporation"/>
+        <contract symbol="KMT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Kennametal Inc"/>
+        <contract symbol="KN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Knowles Corp"/>
+        <contract symbol="KRC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Kilroy Realty Corp"/>
+
+        <!-- L -->
+        <contract symbol="LB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="L Brands Inc."/>
+        <contract symbol="LLL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="L-3 Communications Holdings"/>
+        <contract symbol="LH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Laboratory Corp. of America Holding"/>
+        <contract symbol="LRCX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lam Research"/>
+        <contract symbol="LM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Legg Mason"/>
+        <contract symbol="LEG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Leggett and Platt"/>
+        <contract symbol="LEN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lennar Corp."/>
+        <contract symbol="LVLT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Level 3 Communications"/>
+        <contract symbol="LUK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Leucadia National Corp."/>
+        <contract symbol="LLY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lilly (Eli) and Co."/>
+        <contract symbol="LNC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lincoln National"/>
+        <contract symbol="LLTC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Linear Technology Corp."/>
+        <contract symbol="LMT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lockheed Martin Corp."/>
+        <contract symbol="L" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Loews Corp."/>
+        <contract symbol="LO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lorillard Inc."/>
+        <contract symbol="LOW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Lowe's Cos."/>
+        <contract symbol="LYB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="LyondellBasell"/>
+        <contract symbol="LUV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Southwest Airlines"/>
+
+        <contract symbol="LAMR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lamar Advertising Co-A"/>
+        <contract symbol="LANC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lancaster Colony Corp"/>
+        <contract symbol="LDOS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Leidos Holdings Inc"/>
+        <contract symbol="LECO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lincoln Electric Holdings Inc"/>
+        <contract symbol="LHO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="LaSalle Hotel"/>
+        <contract symbol="LII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lennox International Inc"/>
+        <contract symbol="LKQ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="LKQ Corp"/>
+        <contract symbol="LNT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Alliant Energy Corp"/>
+        <contract symbol="LPNT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lifepoint Hospitals Inc"/>
+        <contract symbol="LPT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Liberty Property Trust"/>
+        <contract symbol="LPX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Louisiana-Pacific Corp"/>
+        <contract symbol="LSTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Landstar System Inc"/>
+        <contract symbol="LTM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Life Time Fitness Inc"/>
+        <contract symbol="LXK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Lexmark International Inc"/>
+        <contract symbol="LYV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Live Nation Entertainment Inc"/>
+
+        <!-- M -->
+        <contract symbol="MMM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="3M Company"/> 
+        <contract symbol="MO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Altria Group Inc"/>
+        <contract symbol="MTB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="M and T Bank Corp."/>
+        <contract symbol="MAC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Macerich"/>
+        <contract symbol="M" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Macy's Inc."/>
+        <contract symbol="MNK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mallinckrodt Plc"/>
+        <contract symbol="MRO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Marathon Oil Corp."/>
+        <contract symbol="MPC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Marathon Petroleum"/>
+        <contract symbol="MAR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Marriott Int'l."/>
+        <contract symbol="MMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Marsh and McLennan"/>
+        <contract symbol="MLM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Martin Marietta Materials"/>
+        <contract symbol="MAS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Masco Corp."/>
+        <contract symbol="MA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mastercard Inc."/>
+        <contract symbol="MAT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mattel Inc."/>
+        <contract symbol="MKC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="McCormick and Co."/>
+        <contract symbol="MCD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="McDonald's Corp."/>
+        <contract symbol="MHFI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="McGraw Hill Financial"/>
+        <contract symbol="MCK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="McKesson Corp."/>
+        <contract symbol="MJN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mead Johnson"/>
+        <contract symbol="MWV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="MeadWestvaco Corporation"/>
+        <contract symbol="MDT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Medtronic plc"/>
+        <contract symbol="MRK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Merck and Co."/>
+        <contract symbol="MET" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="MetLife Inc."/>
+        <contract symbol="MCHP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Microchip Technology"/>
+        <contract symbol="MU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Micron Technology"/>
+        <contract symbol="MSFT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Microsoft Corp."/>
+        <contract symbol="MHK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mohawk Industries"/>
+        <contract symbol="MDLZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mondelez International"/>
+        <contract symbol="MON" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Monsanto Co."/>
+        <contract symbol="MNST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Monster Beverage"/>
+        <contract symbol="MCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Moody's Corp"/>
+        <contract symbol="MS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Morgan Stanley"/>
+        <contract symbol="MOS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Mosaic Company"/>
+        <contract symbol="MSI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Motorola Solutions Inc."/>
+        <contract symbol="MUR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Murphy Oil"/>
+        <contract symbol="MYL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Mylan N.V."/>
+
+        <contract symbol="MAA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mid-America Apartment Communities Inc"/>
+        <contract symbol="MAN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Manpower Inc"/>
+        <contract symbol="MCY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mercury General Corp"/>
+        <contract symbol="MD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mednax Inc"/>
+        <contract symbol="MDC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="MDC Holdings Inc"/>
+        <contract symbol="MDP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Meredith Corp"/>
+        <contract symbol="MDRX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Allscripts Healthcare Solutions"/>
+        <contract symbol="MDU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="MDU Resources Group Inc"/>
+        <contract symbol="MENT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mentor Graphics Corp"/>
+        <contract symbol="MLHR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Miller, Herman Inc"/>
+        <contract symbol="MMS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Maximus Inc"/>
+        <contract symbol="MSA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mine Safety Appliances"/>
+        <contract symbol="MSCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="MSCI Inc"/>
+        <contract symbol="MSM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="MSC Industrial Direct A"/>
+        <contract symbol="MTD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Mettler-Toledo Intl"/>
+        <contract symbol="MTX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Minerals Technologies Inc"/>
+        <contract symbol="MUSA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Murphy USA Inc"/>
+
+        <!-- N -->
+        <contract symbol="NDAQ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="NASDAQ OMX Group"/>
+        <contract symbol="NOV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="National Oilwell Varco Inc."/>
+        <contract symbol="NAVI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Navient"/>
+        <contract symbol="NTAP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="NetApp"/>
+        <contract symbol="NFLX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Netflix Inc."/>
+        <contract symbol="NWL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Newell Rubbermaid Co."/>
+        <contract symbol="NFX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Newfield Exploration Co"/>
+        <contract symbol="NEM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Newmont Mining Corp. (Hldg. Co.)"/>
+        <contract symbol="NWSA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="News Corp."/>
+        <contract symbol="NEE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="NextEra Energy"/>
+        <contract symbol="NLSN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Nielsen Holdings"/>
+        <contract symbol="NKE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Nike"/>
+        <contract symbol="NI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="NiSource Inc."/>
+        <contract symbol="NE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Noble Corp"/>
+        <contract symbol="NBL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Noble Energy Inc"/>
+        <contract symbol="NSC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Norfolk Southern Corp."/>
+        <contract symbol="NTRS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Northern Trust Corp."/>
+        <contract symbol="NOC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Northrop Grumman Corp."/>
+        <contract symbol="NRG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="NRG Energy"/>
+        <contract symbol="NUE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Nucor Corp."/>
+        <contract symbol="NVDA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Nvidia Corporation"/>
+
+        <contract symbol="NATI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="National Instruments Corp"/>
+        <contract symbol="NBR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Nabors Industries Ltd"/>
+        <contract symbol="NCR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="NCR Corp"/>
+        <contract symbol="NDSN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Nordson Corp"/>
+        <contract symbol="NEU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="NewMarket Corp"/>
+        <contract symbol="NFG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="National Fuel Gas"/>
+        <contract symbol="NNN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="National Retail Properties Inc"/>
+        <contract symbol="NSR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="NeuStar, Inc"/>
+        <contract symbol="NVR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="NVR Inc"/>
+        <contract symbol="NYCB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="New York Community Bancorp Inc"/>
+        <contract symbol="NYT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="The New York Times Company"/>
+
+        <!-- O -->
+        <contract symbol="ORLY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="O'Reilly Automotive"/>
+        <contract symbol="OXY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Occidental Petroleum"/>
+        <contract symbol="OMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Omnicom Group"/>
+        <contract symbol="OKE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="ONEOK"/>
+        <contract symbol="ORCL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Oracle Corp."/>
+        <contract symbol="OI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Owens-Illinois Inc"/>
+        <contract symbol="O" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Realty Income Corporation"/>
+
+        <contract symbol="OA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Orbital ATK Inc"/>
+        <contract symbol="OCR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Omnicare Inc"/>
+        <contract symbol="ODFL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Old Dominion Freight Line Inc"/>
+        <contract symbol="ODP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Office Depot Inc"/>
+        <contract symbol="OFC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Corporate Office Properties"/>
+        <contract symbol="OGE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="OGE Energy Corp"/>
+        <contract symbol="OGS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ONE Gas Inc"/>
+        <contract symbol="OHI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Omega Healthcare Investors"/>
+        <contract symbol="OII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Oceaneering Intl Inc"/>
+        <contract symbol="OIS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Oil States Intl Inc"/>
+        <contract symbol="OLN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Olin Corp"/>
+        <contract symbol="OMI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Owens and Minor Inc"/>
+        <contract symbol="ORI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Old Republic Intl Corp"/>
+        <contract symbol="OSK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Oshkosh Corporation"/>
+
+        <!-- P -->
+        <contract symbol="PCAR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PACCAR Inc."/>
+        <contract symbol="PLL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pall Corp."/>
+        <contract symbol="PH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Parker-Hannifin"/>
+        <contract symbol="PDCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Patterson Companies"/>
+        <contract symbol="PAYX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Paychex Inc."/>
+        <contract symbol="PNR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pentair Ltd."/>
+        <contract symbol="PBCT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="People's United Financial"/>
+        <contract symbol="POM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pepco Holdings Inc."/>
+        <contract symbol="PEP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PepsiCo Inc."/>
+        <contract symbol="PKI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PerkinElmer"/>
+        <contract symbol="PRGO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Perrigo"/>
+        <contract symbol="PFE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pfizer Inc."/>
+        <contract symbol="PCG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PG and E Corp."/>
+        <contract symbol="PM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Philip Morris International"/>
+        <contract symbol="PSX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Phillips 66"/>
+        <contract symbol="PNW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pinnacle West Capital"/>
+        <contract symbol="PXD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pioneer Natural Resources"/>
+        <contract symbol="PBI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pitney-Bowes"/>
+        <contract symbol="PCL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Plum Creek Timber Co."/>
+        <contract symbol="PNC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PNC Financial Services"/>        
+        <contract symbol="PPG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PPG Industries"/>
+        <contract symbol="PPL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PPL Corp."/>
+        <contract symbol="PX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Praxair Inc."/>
+        <contract symbol="PCP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Precision Castparts"/>
+        <contract symbol="PCLN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Priceline.com Inc"/>
+        <contract symbol="PFG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Principal Financial Group"/>
+        <contract symbol="PG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Procter and Gamble"/>
+        <contract symbol="PGR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Progressive Corp."/>
+        <contract symbol="PLD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Prologis"/>
+        <contract symbol="PRU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Prudential Financial"/>
+        <contract symbol="PEG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Public Serv. Enterprise Inc."/>
+        <contract symbol="PSA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Public Storage"/>
+        <contract symbol="PHM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Pulte Homes Inc."/>
+        <contract symbol="PVH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="PVH Corp."/>
+        <contract symbol="PWR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Quanta Services Inc."/>
+
+        <contract symbol="PACW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="PacWest Bancorp"/>
+        <contract symbol="PAY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="VeriFone Systems Inc"/>
+        <contract symbol="PB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Prosperity Bancshares Inc"/>
+        <contract symbol="PCH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Potlatch Corp"/>
+        <contract symbol="PII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Polaris Industries Inc"/>
+        <contract symbol="PKG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Packaging Corporation of America"/>
+        <contract symbol="PLCM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Polycom Inc"/>
+        <contract symbol="PLT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Plantronics Inc"/>
+        <contract symbol="PNM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="PNM Resources Inc"/>
+        <contract symbol="PNRA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Panera Bread Co A"/>
+        <contract symbol="POL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="PolyOne Corp"/>
+        <contract symbol="POST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Post Holdings Inc"/>
+        <contract symbol="PRI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Primerica Inc"/>
+        <contract symbol="PTC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="PTC Inc"/>
+        <contract symbol="PTEN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Patterson-UTI Energy"/>
+
+        <!-- Q -->
+        <contract symbol="QEP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="QEP Resources"/>
+        <contract symbol="QCOM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="QUALCOMM Inc."/>
+
+        <contract symbol="QRVO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Qorvo Inc"/>
+
+        <!-- R -->
+        <contract symbol="RL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Polo Ralph Lauren Corp."/>
+        <contract symbol="RRC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Range Resources Corp."/>
+        <contract symbol="RTN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Raytheon Co."/>
+        <contract symbol="RHT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Red Hat Inc."/>
+        <contract symbol="REGN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Regeneron"/>
+        <contract symbol="RF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Regions Financial Corp."/>
+        <contract symbol="RSG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Republic Services Inc"/>
+        <contract symbol="RAI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Reynolds American Inc."/>
+        <contract symbol="RHI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Robert Half International"/>
+        <contract symbol="ROK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Rockwell Automation Inc."/>        
+        <contract symbol="ROP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Roper Industries"/>
+        <contract symbol="ROST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ross Stores"/>
+        <contract symbol="RCL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Royal Caribbean Cruises Ltd"/>
+        <contract symbol="R" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ryder System"/>
+        <contract symbol="RIG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Transocean"/>
+
+        <contract symbol="RAX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rackspace Hosting Inc"/>
+        <contract symbol="RBC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Regal Beloit Corp"/>
+        <contract symbol="RCII" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rent-A-Center Inc"/>
+        <contract symbol="RDC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rowan Companies PLC"/>
+        <contract symbol="RE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Everest Re Group Ltd"/>
+        <contract symbol="REG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Regency Centers Corp"/>
+        <contract symbol="RGA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Reinsurance Group of America"/>
+        <contract symbol="RGLD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Royal Gold Inc"/>
+        <contract symbol="RJF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Raymond James Financial Inc"/>
+        <contract symbol="RKT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rock Tenn Company -Cl A"/>
+        <contract symbol="RMD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="ResMed Inc"/>
+        <contract symbol="RNR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Renaissancere Holdings Ltd"/>
+        <contract symbol="ROL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rollins Inc"/>
+        <contract symbol="ROSE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rosetta Resources Inc"/>
+        <contract symbol="ROVI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rovi Corporation"/>
+        <contract symbol="RPM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="RPM International Inc"/>
+        <contract symbol="RRD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Donnelley R.R. and Sons"/>
+        <contract symbol="RS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Reliance Steel and Aluminum Co"/>
+        <contract symbol="RYN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Rayonier Inc"/>
+
+        <!-- S -->
+        <contract symbol="STZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Constellation Brands"/>
+        <contract symbol="SCHW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Charles Schwab Corporation"/>
+        <contract symbol="SNDK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="SanDisk Corporation"/>
+        <contract symbol="SCG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="SCANA Corp"/>
+        <contract symbol="SLB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Schlumberger Ltd."/>
+        <contract symbol="SNI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Scripps Networks Interactive Inc."/>
+        <contract symbol="STX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Seagate Technology"/>
+        <contract symbol="SEE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Sealed Air Corp.(New)"/>
+        <contract symbol="SRE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Sempra Energy"/>
+        <contract symbol="SHW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Sherwin-Williams"/>
+        <contract symbol="SIAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Sigma-Aldrich"/>
+        <contract symbol="SPG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Simon Property Group Inc"/>
+        <contract symbol="SWKS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Skyworks Solutions"/>
+        <contract symbol="SLG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="SL Green Realty"/>
+        <contract symbol="SJM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Smucker (J.M.)"/>
+        <contract symbol="SNA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Snap-On Inc."/>
+        <contract symbol="SO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Southern Co."/>
+        <contract symbol="SWN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Southwestern Energy"/>
+        <contract symbol="SE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Spectra Energy Corp."/>
+        <contract symbol="STJ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="St Jude Medical"/>
+        <contract symbol="SWK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Stanley Black and Decker"/>
+        <contract symbol="SPLS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Staples Inc."/>
+        <contract symbol="SBUX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Starbucks Corp."/>
+        <contract symbol="STT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="State Street Corp."/>
+        <contract symbol="SRCL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Stericycle Inc"/>
+        <contract symbol="SYK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Stryker Corp."/>
+        <contract symbol="STI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="SunTrust Banks"/>
+        <contract symbol="SYMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Symantec Corp."/>
+        <contract symbol="SYY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Sysco Corp."/>
+
+        <contract symbol="SAIC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Science Applications International Corp"/>
+        <contract symbol="SAM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Boston Beer Co Inc"/>
+        <contract symbol="SBNY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Signature Bank NY"/>
+        <contract symbol="SCI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Service Corp Intl"/>
+        <contract symbol="SEIC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SEI Investments Corp"/>
+        <contract symbol="SF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Stifel Financial Corp"/>
+        <contract symbol="SFG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="StanCorp Financial Group Inc"/>
+        <contract symbol="SIG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Signet Jewelers Ltd"/>
+        <contract symbol="SIRO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Sirona Dental Systems Inc"/>
+        <contract symbol="SIVB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SVB Financial Group"/>
+        <contract symbol="SKT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tanger Factory Outlet Centers Inc"/>
+        <contract symbol="SLAB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Silicon Laboratories Inc"/>
+        <contract symbol="SLGN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Silgan Holdings Inc"/>
+        <contract symbol="SLH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Solera Holdings Inc"/>
+        <contract symbol="SLM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SLM Corp"/>
+        <contract symbol="SM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SM Energy Co"/>
+        <contract symbol="SMG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Scotts Co A"/>
+        <contract symbol="SMTC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Semtech Corp"/>
+        <contract symbol="SNH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Senior Housing Properties Trst"/>
+        <contract symbol="SNPS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Synopsys Inc"/>
+        <contract symbol="SNV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Synovus Financial Corp (GA)"/>
+        <contract symbol="SON" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Sonoco Products Co"/>
+        <contract symbol="SPN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Superior Energy Services Inc"/>
+        <contract symbol="SPW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SPX Corp"/>
+        <contract symbol="STE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="STERIS Corp"/>
+        <contract symbol="STLD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Steel Dynamics Inc"/>
+        <contract symbol="STR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Questar Corp"/>
+        <contract symbol="SUNE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SunEdison Inc"/>
+        <contract symbol="SVU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Supervalu Inc"/>
+        <contract symbol="SWI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="SolarWinds Inc"/>
+        <contract symbol="SXT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Sensient Technologies Corp"/>
+
+        <!-- T -->
+        <contract symbol="T" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="AT_T Inc"/>
+        <contract symbol="TAP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Molson Coors Brewing Company"/>
+        <contract symbol="TEG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Integrys Energy Group Inc."/>
+        <contract symbol="TROW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="T. Rowe Price Group"/>
+        <contract symbol="TGT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Target Corp."/>
+        <contract symbol="TEL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="TE Connectivity Ltd."/>
+        <contract symbol="TE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="TECO Energy"/>
+        <contract symbol="THC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tenet Healthcare Corp."/>
+        <contract symbol="TDC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Teradata Corp."/>
+        <contract symbol="TSO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tesoro Petroleum Co."/>
+        <contract symbol="TXN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Texas Instruments"/>
+        <contract symbol="TXT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Textron Inc."/>
+        <contract symbol="TRV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="The Travelers Companies Inc."/>
+        <contract symbol="TMO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Thermo Fisher Scientific"/>
+        <contract symbol="TIF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tiffany and Co."/>
+        <contract symbol="TWX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Time Warner Inc."/>
+        <contract symbol="TWC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Time Warner Cable Inc."/>
+        <contract symbol="TJX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="TJX Companies Inc."/>
+        <contract symbol="TMK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Torchmark Corp."/>
+        <contract symbol="TSS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Total System Services"/>
+        <contract symbol="TSCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tractor Supply Company"/>
+        <contract symbol="TRIP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="TripAdvisor"/>
+        <contract symbol="TSN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tyson Foods"/>
+        <contract symbol="TYC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Tyco International"/>
+
+        <contract symbol="TCB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="TCF Financial Corp (MN)"/>
+        <contract symbol="TCO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Taubman Centers"/>
+        <contract symbol="TDS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Telephone and Data Systems Inc"/>
+        <contract symbol="TDW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tidewater Inc"/>
+        <contract symbol="TDY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Teledyne Technologies Inc"/>
+        <contract symbol="TECD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tech Data Corp"/>
+        <contract symbol="TECH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Techne Corp"/>
+        <contract symbol="TER" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Teradyne Inc"/>
+        <contract symbol="TEX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Terex Corp"/>
+        <contract symbol="TFX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Teleflex Inc"/>
+        <contract symbol="TGI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Triumph Group Inc"/>
+        <contract symbol="THG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Hanover Insurance Group Inc"/>
+        <contract symbol="THO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Thor Industries Inc"/>
+        <contract symbol="THOR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Thoratec Corp"/>
+        <contract symbol="THS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="TreeHouse Foods Inc"/>
+        <contract symbol="TIME" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Time Inc"/>
+        <contract symbol="TKR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Timken Co"/>
+        <contract symbol="TMST" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="TimkenSteel Corp"/>
+        <contract symbol="TOL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Toll Brothers Inc"/>
+        <contract symbol="TPX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tempur Sealy Intl Inc"/>
+        <contract symbol="TR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tootsie Roll Industries Inc"/>
+        <contract symbol="TRMB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Trimble Navigation Ltd"/>
+        <contract symbol="TRMK" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Trustmark Corp (MS)"/>
+        <contract symbol="TRN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Trinity Industries Inc"/>
+        <contract symbol="TUP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tupperware Corp"/>
+        <contract symbol="TW" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Towers Watson and Co"/>
+        <contract symbol="TYL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Tyler Technologies Inc"/>
+
+        <!-- U -->
+        <contract symbol="USB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="U.S. Bancorp"/>
+        <contract symbol="UA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Under Armour"/>        
+        <contract symbol="UNP" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Union Pacific"/>
+        <contract symbol="UNH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="United Health Group Inc."/>
+        <contract symbol="UPS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="United Parcel Service"/>
+        <contract symbol="URI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="United Rentals, Inc."/>
+        <contract symbol="UTX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="United Technologies"/>
+        <contract symbol="UHS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Universal Health Services, Inc."/>
+        <contract symbol="UNM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Unum Group"/>
+        <contract symbol="URBN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Urban Outfitters"/>
+
+        <contract symbol="UDR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="UDR Inc"/>
+        <contract symbol="UE" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Urban Edge Properties"/>
+        <contract symbol="UFS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Domtar Corp"/>
+        <contract symbol="UGI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="UGI Corp"/>
+        <contract symbol="ULTI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Ultimate Software Group Inc"/>
+        <contract symbol="UMPQ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Umpqua Holdings Inc"/>
+        <contract symbol="UNFI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="United Natural Foods Inc"/>
+        <contract symbol="UNT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Unit Corp"/>
+        <contract symbol="UTHR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="United Therapeutics Corp"/>
+
+        <!-- V -->
+        <contract symbol="VFC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="V.F. Corp."/>
+        <contract symbol="VLO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Valero Energy"/>
+        <contract symbol="VAR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Varian Medical Systems"/>
+        <contract symbol="VTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Ventas Inc"/>
+        <contract symbol="VRSN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Verisign Inc."/>
+        <contract symbol="VZ" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Verizon Communications"/>
+        <contract symbol="VRTX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Vertex Pharmaceuticals Inc"/>
+        <contract symbol="VIAB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Viacom Inc."/>
+        <contract symbol="V" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Visa Inc."/>
+        <contract symbol="VNO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Vornado Realty Trust"/>
+        <contract symbol="VMC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Vulcan Materials"/>
+
+        <contract symbol="VAL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Valspar Corp"/>
+        <contract symbol="VLY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Valley National Bancorp"/>
+        <contract symbol="VMI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Valmont Industries Inc"/>
+        <contract symbol="VSH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Vishay Intertechnology Inc"/>
+        <contract symbol="VSTO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Vista Outdoor Inc"/>
+        <contract symbol="VVC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Vectren Corp"/>
+
+        <!-- W -->
+        <contract symbol="WMT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Wal-Mart Stores"/>
+        <contract symbol="WBA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Walgreens Boots Alliance"/>
+        <contract symbol="WM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Waste Management Inc."/>
+        <contract symbol="WAT" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Waters Corporation"/>
+        <contract symbol="WFC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Wells Fargo"/>
+        <contract symbol="WDC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Western Digital"/>
+        <contract symbol="WU" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Western Union Co"/>
+        <contract symbol="WY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Weyerhaeuser Corp."/>
+        <contract symbol="WHR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Whirlpool Corp."/>
+        <contract symbol="WFM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Whole Foods Market"/>
+        <contract symbol="WMB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Williams Cos."/>
+        <contract symbol="WEC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Wisconsin Energy Corporation"/>
+        <contract symbol="WYN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Wyndham Worldwide"/>
+        <contract symbol="WYNN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Wynn Resorts Ltd"/>
+
+        <contract symbol="WAB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Wabtec"/>
+        <contract symbol="WAFD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Washington Federal Inc"/>
+        <contract symbol="WBS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Webster Financial Corp (CT)"/>
+        <contract symbol="WCG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Wellcare Health Plans Inc"/>
+        <contract symbol="WCN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Waste Connections Inc"/>
+        <contract symbol="WDR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Waddell and Reed Finl A"/>
+        <contract symbol="WEN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="The Wendy's Co"/>
+        <contract symbol="WERN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Werner Enterprises Inc"/>
+        <contract symbol="WEX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="WEX Inc"/>
+        <contract symbol="WGL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="WGL Holdings Inc"/>
+        <contract symbol="WIN" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Windstream Holdings Inc"/>
+        <contract symbol="WNR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Western Refining Inc"/>
+        <contract symbol="WOOF" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="VCA Antech Inc"/>
+        <contract symbol="WOR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Worthington Industries"/>
+        <contract symbol="WPG" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Washington Prime Group Inc"/>
+        <contract symbol="WPX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="WPX Energy Inc"/>
+        <contract symbol="WR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Westar Energy Inc"/>
+        <contract symbol="WRB" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="WR Berkley Corp"/>
+        <contract symbol="WRI" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Weingarten Realty Investors"/>
+        <contract symbol="WSM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Williams-Sonoma Inc"/>
+        <contract symbol="WSO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Watsco Inc"/>
+        <contract symbol="WTR" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Aqua America Inc"/>
+        <contract symbol="WWAV" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="WhiteWave Foods Co"/>
+        <contract symbol="WWD" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Woodward Inc"/>
+
+        <!-- X-->
+        <contract symbol="XEL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Xcel Energy Inc"/>
+        <contract symbol="XRX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Xerox Corp."/>
+        <contract symbol="XLNX" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Xilinx Inc"/>
+        <contract symbol="XL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="XL Capital"/>
+        <contract symbol="XYL" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Xylem Inc."/>
+        <contract symbol="XEC" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Cimarex Energy"/>
+        <contract symbol="XRAY" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Dentsply International"/>
+        <contract symbol="XOM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Exxon Mobil Corp."/>
+
+        <contract symbol="X" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="United States Steel Corp"/>
+        <!--
+        <contract symbol="XLS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Exelis Inc"/>
+        -->
+        
+        <!-- Y -->
+        <contract symbol="YHOO" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Yahoo Inc."/>
+        <contract symbol="YUM" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Yum! Brands Inc"/>
+
+        <contract symbol="Y" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Alleghany Corp"/>
+
+        <!-- Z -->
+        <contract symbol="ZMH" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Zimmer Holdings"/>
+        <contract symbol="ZION" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Zions Bancorp"/>
+        <contract symbol="ZTS" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP500" companyName="Zoetis"/>
+
+        <contract symbol="ZBRA" secType="STK" exchange="SMART|ISLAND" currency="USD" index="SP400" companyName="Zebra Technologies Corp-Cl A"/>
+
+    </contracts>
+</ctrs>

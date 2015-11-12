@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ReportSnapshot" type="ReportSnapshotType"/>
+  <xs:complexType name="webSiteType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="mainCategory"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="titleType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="startYear" use="optional"/>
+        <xs:attribute type="xs:string" name="startMonth" use="optional"/>
+        <xs:attribute type="xs:string" name="startDay" use="optional"/>
+        <xs:attribute type="xs:string" name="iD1" use="optional"/>
+        <xs:attribute type="xs:string" name="abbr1" use="optional"/>
+        <xs:attribute type="xs:string" name="iD2" use="optional"/>
+        <xs:attribute type="xs:string" name="abbr2" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ReportingCurrencyType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Code"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="RatioType" mixed="true">
+    <xs:sequence>
+      <xs:element type="ValueType" name="Value" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="FieldName" use="optional"/>
+    <xs:attribute type="xs:string" name="Type" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="IssueIDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="webLinksType">
+    <xs:sequence>
+      <xs:element type="webSiteType" name="webSite"/>
+      <xs:element type="eMailType" name="eMail"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="lastUpdated"/>
+  </xs:complexType>
+  <xs:complexType name="ReportSnapshotType">
+    <xs:sequence>
+      <xs:element type="CoIDsType" name="CoIDs"/>
+      <xs:element type="IssuesType" name="Issues"/>
+      <xs:element type="CoGeneralInfoType" name="CoGeneralInfo"/>
+      <xs:element type="TextInfoType" name="TextInfo"/>
+      <xs:element type="contactInfoType" name="contactInfo"/>
+      <xs:element type="webLinksType" name="webLinks"/>
+      <xs:element type="peerInfoType" name="peerInfo"/>
+      <xs:element type="officersType" name="officers"/>
+      <xs:element type="RatiosType" name="Ratios"/>
+      <xs:element type="ForecastDataType" name="ForecastData"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="Major"/>
+    <xs:attribute type="xs:string" name="Minor"/>
+    <xs:attribute type="xs:string" name="Revision"/>
+  </xs:complexType>
+  <xs:complexType name="countryType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="code"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="officerType">
+    <xs:sequence>
+      <xs:element name="firstName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Virginia"/>
+            <xs:enumeration value="Martin"/>
+            <xs:enumeration value="Steven"/>
+            <xs:enumeration value="Michelle"/>
+            <xs:enumeration value="Colleen"/>
+            <xs:enumeration value="Bruno"/>
+            <xs:enumeration value="Jon"/>
+            <xs:enumeration value="Diane"/>
+            <xs:enumeration value="Erich"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="mI">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="M."/>
+            <xs:enumeration value="J."/>
+            <xs:enumeration value="A."/>
+            <xs:enumeration value="H."/>
+            <xs:enumeration value="F."/>
+            <xs:enumeration value="V."/>
+            <xs:enumeration value="C."/>
+            <xs:enumeration value=""/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="lastName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Rometty"/>
+            <xs:enumeration value="Schroeter"/>
+            <xs:enumeration value="Mills"/>
+            <xs:enumeration value="Browdy"/>
+            <xs:enumeration value="Arnold"/>
+            <xs:enumeration value="Di Leo"/>
+            <xs:enumeration value="Iwata"/>
+            <xs:enumeration value="Gherson"/>
+            <xs:enumeration value="Clementi"/>
+            <xs:enumeration value="Jetter"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="age">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="57 "/>
+            <xs:enumeration value="50 "/>
+            <xs:enumeration value="63 "/>
+            <xs:enumeration value="52 "/>
+            <xs:enumeration value="56 "/>
+            <xs:enumeration value="55 "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="titleType" name="title"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="rank" use="optional"/>
+    <xs:attribute type="xs:string" name="since" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="IssuesType">
+    <xs:sequence>
+      <xs:element type="IssueType" name="Issue" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="peerInfoType">
+    <xs:sequence>
+      <xs:element type="IndustryInfoType" name="IndustryInfo"/>
+      <xs:element name="Indexconstituet" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="S&amp;P 500"/>
+            <xs:enumeration value="Dow Industry"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="lastUpdated"/>
+  </xs:complexType>
+  <xs:complexType name="SharesOutType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Date"/>
+        <xs:attribute type="xs:string" name="TotalFloat"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="RatiosType">
+    <xs:sequence>
+      <xs:element type="GroupType" name="Group" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="PriceCurrency"/>
+    <xs:attribute type="xs:string" name="ReportingCurrency"/>
+    <xs:attribute type="xs:string" name="ExchangeRate"/>
+    <xs:attribute type="xs:string" name="LatestAvailableDate"/>
+  </xs:complexType>
+  <xs:complexType name="streetAddressType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="line" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="CoGeneralInfoType">
+    <xs:sequence>
+      <xs:element type="CoStatusType" name="CoStatus"/>
+      <xs:element type="CoTypeType" name="CoType"/>
+      <xs:element type="xs:string" name="LastModified"/>
+      <xs:element type="xs:string" name="LatestAvailableAnnual"/>
+      <xs:element type="xs:string" name="LatestAvailableInterim"/>
+      <xs:element type="EmployeesType" name="Employees"/>
+      <xs:element type="SharesOutType" name="SharesOut"/>
+      <xs:element type="CommonShareholdersType" name="CommonShareholders"/>
+      <xs:element type="ReportingCurrencyType" name="ReportingCurrency"/>
+      <xs:element type="MostRecentExchangeType" name="MostRecentExchange"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="CommonShareholdersType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Date"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="TextInfoType">
+    <xs:sequence>
+      <xs:element type="TextType" name="Text" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ExchangeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Code" use="optional"/>
+        <xs:attribute type="xs:string" name="Country" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="contactInfoType">
+    <xs:sequence>
+      <xs:element type="streetAddressType" name="streetAddress" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="xs:string" name="city"/>
+      <xs:element type="xs:string" name="state-region"/>
+      <xs:element type="xs:string" name="postalCode"/>
+      <xs:element type="countryType" name="country"/>
+      <xs:element type="xs:string" name="contactName"/>
+      <xs:element type="xs:string" name="contactTitle"/>
+      <xs:element type="phoneType" name="phone"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="lastUpdated"/>
+  </xs:complexType>
+  <xs:complexType name="MostRecentExchangeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Date"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="phoneType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="countryPhoneCode" minOccurs="0"/>
+      <xs:element type="xs:string" name="city-areacode" minOccurs="0"/>
+      <xs:element name="number" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4991900"/>
+            <xs:enumeration value="4995800"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="phoneType" name="phone" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="type" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ValueType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="PeriodType" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="IssueType">
+    <xs:sequence>
+      <xs:element type="IssueIDType" name="IssueID" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="ExchangeType" name="Exchange"/>
+      <xs:element type="MostRecentSplitType" name="MostRecentSplit" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="ID" use="optional"/>
+    <xs:attribute type="xs:string" name="Type" use="optional"/>
+    <xs:attribute type="xs:string" name="Desc" use="optional"/>
+    <xs:attribute type="xs:string" name="Order" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="eMailType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="mainCategory"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="ForecastDataType">
+    <xs:sequence>
+      <xs:element type="RatioType" name="Ratio" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="ConsensusType"/>
+    <xs:attribute type="xs:string" name="CurFiscalYear"/>
+    <xs:attribute type="xs:string" name="CurFiscalYearEndMonth"/>
+    <xs:attribute type="xs:string" name="CurInterimEndCalYear"/>
+    <xs:attribute type="xs:string" name="CurInterimEndMonth"/>
+    <xs:attribute type="xs:string" name="EarningsBasis"/>
+  </xs:complexType>
+  <xs:complexType name="CoTypeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Code"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="TextType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Type" use="optional"/>
+        <xs:attribute type="xs:string" name="lastModified" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="IndustryType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+        <xs:attribute type="xs:string" name="order" use="optional"/>
+        <xs:attribute type="xs:string" name="reported" use="optional"/>
+        <xs:attribute type="xs:string" name="code" use="optional"/>
+        <xs:attribute type="xs:string" name="mnem" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="IndustryInfoType">
+    <xs:sequence>
+      <xs:element type="IndustryType" name="Industry" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GroupType">
+    <xs:sequence>
+      <xs:element type="RatioType" name="Ratio" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="ID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="CoStatusType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Code"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="CoIDType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="MostRecentSplitType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="Date"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="EmployeesType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="LastUpdated"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="CoIDsType">
+    <xs:sequence>
+      <xs:element type="CoIDType" name="CoID" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="officersType">
+    <xs:sequence>
+      <xs:element type="officerType" name="officer" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
